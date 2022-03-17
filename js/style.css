@@ -1,0 +1,29 @@
+.container {
+	border: 1px solid black;
+	display: block;
+	width: 300px;
+}
+
+.number {
+	background-color: #e3e3e3;
+	color: black;
+	display: inline-block;
+	text-align: center;
+	margin: 7.5px;
+	padding: 7.5px;
+	width: 30px;
+}
+
+.number:nth-of-type(1 + 5n) {
+	display: block;
+}
+
+.hover {
+	background-color: rgba(255, 0, 0, 0.5);
+	color: black;
+}
+
+.inputted {
+	background-color: red;
+	color: white;
+}
